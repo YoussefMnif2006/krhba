@@ -1,0 +1,83 @@
+body{
+    height:100vh ;
+    width: 100vw;
+    margin: 0;
+    background-image: url("peakpx\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 110%;
+}
+header{
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+.div1,a{
+    padding-top: 15px;
+    padding-right:4vw;
+    font-size: 3vmin;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+a{
+  color: rgb(255, 255, 255);
+  position: relative;
+  text-decoration: none;
+  transition: 1s;
+}
+a::before {
+  content: '';
+  position: absolute;
+  width: 60%;
+  height: 4px;
+  border-radius: 6px;
+  background-color: rgb(255, 255, 255);
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
+}
+a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+img{
+    padding-top: 15px;
+    padding-left: 8vw;
+}
+#div2 h3{
+    color: #fff;
+    font-size: 13.5vmin;
+    margin-top: -4vh;
+    text-align: center;
+}
+#div2 p{
+    color: #fff;
+    font-size: 3.2vmin;
+    text-align: center;
+    margin-top: -9vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+                       
+                            
+@import url('https://fonts.googleapis.com/css2?Roboto&display=swap');
+
+.btn {
+    cursor: pointer; border: solid rgb(70, 70, 70); font-family: Roboto; font-size: 2vmin; color: rgb(255, 255, 255);; transition: all 0ms ease 0s; width: 335px; box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px; border-radius: 3px; background: rgb(71, 71, 71); font-weight: 400; --hover-bgc:#272727; --hover-borderc:#ffffff; --hover-borderSize:6px;
+    margin-top: 50vh;margin-left: 41vw;
+}
+
+
+.btn:hover{
+    
+color: rgb(255, 255, 255);
+width: 337px;
+background: rgb(29, 29, 29) none repeat scroll 0% 0% / auto padding-box border-box;
+border-color: transparent;
+border-width: 6px;
+border-style: solid;
+}
